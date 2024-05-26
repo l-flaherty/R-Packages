@@ -1,5 +1,6 @@
 install.packages("installr")
 install.packages("tidyverse")
+install.packages("tidyquant")
 install.packages("Lahman")
 install.packages("httr")
 install.packages("rJava")
@@ -23,6 +24,7 @@ install.packages("lubridate")
 
 library(installr)               #command is updateR() if needed#
 library(tidyverse)
+library(tidyquant)
 library(Lahman)
 library(httr)
 library(rJava)
