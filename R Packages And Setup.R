@@ -21,7 +21,8 @@ install.packages("plm")
 install.packages("data.table")
 install.packages("zoo")
 install.packages("lubridate")
-install.packages("DBI")        
+install.packages("DBI")  
+install.packages("RSQLite")
 
 library(installr)               #command is updateR() if needed#
 library(tidyverse)
@@ -47,6 +48,7 @@ library(data.table)
 library(zoo)
 library(lubridate)
 library(DBI)
+library(RSQLite)
 
 .Machine$sizeof.pointer     #Says number of bytes R runs (4 is 32-bit, 8 is 64-bit)#
 sessionInfo()               #command is updateR() if needed#
