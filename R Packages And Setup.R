@@ -49,6 +49,8 @@ library(lubridate)
 .Machine$sizeof.pointer     #Says number of bytes R runs (4 is 32-bit, 8 is 64-bit)#
 sessionInfo()               #command is updateR() if needed#
 version
+
+ls()                        #gives the functions in a package#
 getwd()                     #can change with setwd()#
 data()                      #gives built in data sources to use, e.g. iris#
                             #use dput to share data#
