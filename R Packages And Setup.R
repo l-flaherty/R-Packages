@@ -1,3 +1,6 @@
+#Tools -> Global Options -> General -> check all the 'restore' options#
+#Tools -> Global Options -> Code -> Display -> uncheck everything in 'syntax'#
+
 install.packages("installr")
 install.packages("tidyverse")
 install.packages("tidyquant")
