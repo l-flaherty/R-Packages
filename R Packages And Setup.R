@@ -1,4 +1,4 @@
-#Tools -> Global Options -> General -> check all the 'restore' options#
+#Tools -> Global Options -> General -> check all the 'restore' options, and set the wd to where you want#
 #Tools -> Global Options -> Code -> Display -> uncheck everything in 'syntax'#
 
 install.packages("installr")
