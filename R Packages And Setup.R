@@ -74,3 +74,6 @@ data()                      #gives built in data sources to use, e.g. iris#
 ls("package:package_name")  #gives the functions in a package#
 package::function()         #use one function from package instead of load whole thing# 
 
+R.version.string            #checking version#
+R.home()                    #Where the file is#
+
